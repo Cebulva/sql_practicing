@@ -1,14 +1,6 @@
 Markdown
 
-# [SQL Exploration]
-
-[![GitHub Issues](https://img.shields.io/github/issues/[Your GitHub Username]/[Your Repository Name])](https://github.com/[Your GitHub Username]/[Your Repository Name]/issues)
-[![GitHub Pull Requests](https://img.shields.io/github/pulls/[Your GitHub Username]/[Your Repository Name])](https://github.com/[Your GitHub Username]/[Your Repository Name]/pulls)
-[![License](https://img.shields.io/github/license/[Your GitHub Username]/[Your Repository Name])](LICENSE)
-[![Last Commit](https://img.shields.io/github/last-commit/[Your GitHub Username]/[Your Repository Name])](https://github.com/[Your GitHub Username]/[Your Repository Name]/commits/main)
-[![Code Size](https://img.shields.io/github/languages/code-size/[Your GitHub Username]/[Your Repository Name])](https://github.com/[Your GitHub Username]/[Your Repository Name])
-[![Language](https://img.shields.io/github/languages/top/[Your GitHub Username]/[Your Repository Name])](https://github.com/[Your GitHub Username]/[Your Repository Name])
-[![Followers](https://img.shields.io/github/followers/[Your GitHub Username]?style=social)](https://github.com/[Your GitHub Username]?tab=followers)
+# [SQL PRACTICING]
 
 ---
 
@@ -19,30 +11,20 @@ Markdown
 - [3. Getting Started](#3-getting-started)
     - [3.1. Prerequisites](#31-prerequisites)
     - [3.2. Installation](#32-installation)
-- [4. Usage](#4-usage)
-- [5. Examples](#5-examples)
-- [6. API Reference](#6-api-reference) (Optional)
-- [7. Contributing](#7-contributing)
-- [8. License](#8-license)
-- [9. Support](#9-support)
-- [10. Acknowledgements](#10-acknowledgements) (Optional)
+- [4. Content](#4-content)
 
 ---
 
 ## 1. Introduction
 
-Provide a concise and engaging overview of your project. What problem does it solve? What is its purpose? What are its key goals?
-
-> Briefly describe your project in one or two sentences. Highlight its main functionality and value proposition.
+This branch serves as a hands-on collection of SQL challenges designed to help you master the fundamental concepts of SQL. Whether you're a beginner looking to build a strong foundation or seeking to sharpen your querying skills, these challenges provide practical exercises to solidify your understanding.
 
 ## 2. Features
 
-List the key features of your project using bullet points. Be clear and concise.
-
-- Feature 1: A brief description of the first feature.
-- Feature 2: Explanation of the second feature and its benefits.
-- Feature 3: Detail any other significant functionalities.
-- ...
+- Structured Learning Path: Progress through a series of carefully crafted challenges, each focusing on specific SQL concepts.
+- Practical Application: Solve real-world data manipulation problems through engaging exercises.
+- Comprehensive Coverage: Learn essential SQL keywords, clauses, functions, and advanced techniques like JOINs and subqueries.
+- Self-Paced Learning: Work through the challenges at your own speed, reviewing topics as needed.
 
 ## 3. Getting Started
 
@@ -50,26 +32,42 @@ This section guides users on how to get your project up and running on their loc
 
 ### 3.1. Prerequisites
 
-List any dependencies that need to be installed before your project can be used. Be specific about versions if necessary.
+To run the SQL files and practice the challenges, you will need to have MySQL installed on your system.
 
-- [Dependency 1](Link to installation instructions if available) (>= Version X.Y.Z)
-- [Dependency 2](Link to installation instructions if available)
-- [Operating System Requirement (if any)]
+- [MySQL Workbench](https://dev.mysql.com/downloads/workbench/) (>= Version 8.0.41)
 
 ### 3.2. Installation
 
-Provide step-by-step instructions on how to install your project. Include code blocks for commands.
+Follow these steps to get started with the SQL challenges-
 
 ```bash
-# Example for cloning the repository
-git clone [https://github.com/](https://github.com/)[Your GitHub Username]/[Your Repository Name].git
+# Clone this repository
+git clone https://github.com/Cebulva/sql_practicing.git
 
-# Example for navigating to the project directory
-cd [Your Repository Name]
+# Navigate into the cloned repository directory
+cd sql_practicing
 
-# Example for installing dependencies (if applicable, e.g., using pip for Python)
-pip install -r requirements.txt
+# Navigate into the Challenges directory where the SQL files are located
+cd Challenges
+```
+### 4. Content
 
-# Example for building the project (if necessary)
-npm install
-npm run build
+Challenge 1: SELECT, FROM, AS, and DISTINCT
+
+Challenge 2: WHERE, AND, OR, and NOT
+
+Challenge 3: ORDER BY and LIMIT & Aggregations – COUNT, SUM, MIN, MAX, and AVG
+
+Challenge 4: LIKE, IN, and BETWEEN
+
+Challenge 5 & Bonus 1: GROUP BY and HAVING
+
+Challenge 6: JOINs
+
+Challenge 7 & Bonus 2: CASE
+
+Challenge 8: Subqueries
+
+Challenge 9: Functions
+
+Challenge 10: Maths
