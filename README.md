@@ -64,8 +64,8 @@ mysql -u your_username -p
 # For example, to use a database named 'sql_challenges_db':
 # USE sql_challenges_db;
 
-# To execute a challenge file (replace 'Challenge_1_SELECT_FROM_AS_DISTINCT.sql' with the actual file name):
-# SOURCE 'Challenge_1_SELECT_FROM_AS_DISTINCT.sql';
+# To execute a challenge file (replace 'sql_challenges_1.sql' with the actual file name you want to run):
+# SOURCE 'sql_challenges_1.sql';
 ```
 ### 5. Examples
 
