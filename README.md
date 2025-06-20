@@ -12,7 +12,7 @@ Markdown
     - [3.1. Prerequisites](#31-prerequisites)
     - [3.2. Installation](#32-installation)
 - [4. Usage](#4-usage)
-- [5. Examples](#5-examples)
+- [5. Demonstrated SQL Skills](#5-demonstrated-sql-skills)
 
 ---
 
@@ -67,7 +67,7 @@ mysql -u your_username -p
 # To execute a challenge file (replace 'sql_challenges_1.sql' with the actual file name you want to run):
 # SOURCE 'sql_challenges_1.sql';
 ```
-### 5. Examples
+### 5. Demonstrated SQL Skills
 
 The Challenges directory contains structured SQL files, each focusing on a specific set of concepts. Click on any challenge below to see a brief description and a direct link to its solution file.
 
