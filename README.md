@@ -53,20 +53,50 @@ cd Challenges
 ```
 ### 4. Usage
 
-Once you have MySQL installed and have navigated to the Challenges directory, you can explore each challenge's .sql file. Each file contains the SQL queries I wrote to solve the given problem. You can run these scripts against your local MySQL instance to see the results firsthand and understand my approach.
+Once you have MySQL installed and have navigated to the sql_practicing repository directory (from the Installation steps), you can proceed to set up the database and run the challenge solutions.
 
-To run a challenge's SQL script using the MySQL command-line client:
+4.1. Database Setup
+First, you need to load the sample database required for the challenges.
 ```bash
-# First, log in to your MySQL server (you might need to specify host, port, and password)
+# 1. Log in to your MySQL server (you might need to specify host, port, and password)
 mysql -u your_username -p
 
-# Then, within the MySQL client, ensure you are using the correct database or create one.
-# For example, to use a database named 'sql_challenges_db':
-# USE sql_challenges_db;
+# 2. Inside the MySQL client, create a new database for the challenges
+#    You can name it 'publications_db' or anything you prefer.
+CREATE DATABASE IF NOT EXISTS publications_db;
 
-# To execute a challenge file (replace 'sql_challenges_1.sql' with the actual file name you want to run):
-# SOURCE 'sql_challenges_1.sql';
+# 3. Select the newly created database
+USE publications_db;
+
+# 4. Load the database dump.
+#    Ensure you run this command from the root of your cloned repository (e.g., 'sql_practicing/'),
+#    as the 'publications_dump.sql' file is located in the 'Data/' folder relative to the root.
+SOURCE Data/publications_dump.sql;
+
+# You can now exit the MySQL client if you wish
+# exit;
 ```
+4.2. Running Challenges
+After the database is set up, you can execute the SQL files for each challenge.
+
+```bash
+# 1. Navigate into the 'Challenges' directory from your repository's root
+cd Challenges/
+
+# 2. Log back into your MySQL client (if you exited)
+mysql -u your_username -p
+
+# 3. Select the database you created earlier (e.g., 'publications_db')
+USE publications_db;
+
+# 4. To execute a specific challenge file, use the SOURCE command.
+#    Replace 'sql_challenges_1.sql' with the actual file name of the challenge you want to run.
+SOURCE 'sql_challenges_1.sql';
+
+# Example: To run the second challenge
+# SOURCE 'sql_challenges_2.sql';
+```
+
 ### 5. Demonstrated SQL Skills
 
 The Challenges directory contains structured SQL files, each focusing on a specific set of concepts. Click on any challenge below to see a brief description and a direct link to its solution file.
